@@ -1,0 +1,687 @@
+
+body {
+  font-family: "Inconsolata", monospace;
+  color: #0d1e2d;
+  overflow-x: hidden;
+}
+
+a {
+  color: #777;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+}
+
+h1, h2, h3, h4, h5, h6, .font-heading {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+.section {
+  padding: 7rem 0;
+}
+
+.filters a {
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  font-family: nunito sans;
+  font-size: 16px;
+  left: 420px;
+  font-weight: bold;
+  bottom: 265px;
+  position: absolute;
+}
+
+.filters a:hover, .filters a:focus, .filters a:active {
+  text-decoration: none;
+
+}
+.filters1{
+  position: absolute;
+  bottom: 620px;
+  left: 500px;
+  font-weight: 100;
+  display: inline-block;
+
+}
+
+.filters a:hover:before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 0;
+  height: 1px;
+  background-color: #000;
+}
+
+.filters a.active {
+  color: #000;
+}
+
+.filters a.active:before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 0;
+  height: 1px;
+  font-weight: bold;
+  background-color: #000;
+}
+
+.stack1
+{
+  position: absolute;
+  bottom: 300px;
+  left: 220px;
+}
+
+.stack
+{
+  position: relative;
+  bottom: 300px;
+  left: 220px;
+
+}
+.button{
+color:black;
+    background:white;
+    padding: 7px 22px;
+    margin: 0 0 0 15px;
+    border-radius: 8px;
+    border: 2px white;
+    transition: all ease-in-out 0.3s;
+    font-size: 13px;
+    white-space: nowrap;
+    position: absolute;
+    padding-right: -15px;
+    top: 00px;
+    left: 1100px;
+}
+.bg
+{
+position: absolute;
+right: 80px;
+top: -50px;
+bottom: none;
+}
+
+.custom-navmenu p {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.custom-navmenu a {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.custom-navmenu a:hover {
+  color: #fff;
+}
+
+/* Custom Navbar */
+.custom-navbar {
+  padding-top:10px;
+  width: 100%;
+}
+
+@media (max-width: 780px) {
+  .custom-navbar > .container {
+      position: relative;
+    padding-right: 0;
+    padding-left: 0;
+    top:30px;
+    left: 50px;
+  }
+}
+
+.custom-navbar .navbar-brand {
+  position: relative;
+  font-size: 1.7rem;
+  font-family: Montserrat;
+  padding-top: -20px; 
+  left: 50px; 
+  top: -290px;
+}
+.stack0{
+  position: absolute;
+  bottom: 330px;
+  left: 200px;
+
+}
+.button{
+color:black;
+    background:white;
+    padding: 7px 22px;
+    margin: 0 0 0 15px;
+    border-radius: 8px;
+    border: 2px white;
+    transition: all ease-in-out 0.3s;
+    font-size: 13px;
+    width: 120px;
+    white-space: nowrap;
+    position: absolute;
+    right: 9px;
+    top: -60px;
+    z-index: 1;
+}
+.wee{
+  position: absolute;
+  top: 50px;
+}
+.border{
+  position: relative;
+  padding-top: 50px;
+  right: -15px;
+  z-index: 1;
+}
+.box{
+  background-color:#F3F3F3;
+  width: 1600;
+  height: 600;
+  margin-top: 320px;
+  padding-top: 400px;
+}
+
+
+.card{
+  background: #fbfbfb;
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+  height: 350px;
+  margin: 12rem auto 8.1rem auto;  
+  width: 280px;
+  left: 150px;
+  position: relative;
+  position: absolute;
+  top: 350px;
+}
+.card1{
+  background: #fbfbfb;
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+  height: 350px;
+  margin: 12rem auto 8.1rem auto;
+  width: 280px;
+  left: 500px;
+  position: relative;
+  position: absolute;
+  top: 350px;
+}
+.card2{
+  background: #fbfbfb;
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+  height: 350px;
+  margin: 12rem auto 8.1rem auto;
+  width: 280px;
+  left: 850px;
+  position: relative;
+  top: 350px;}
+  .cardsatu{
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 490px;
+    margin: 12rem auto 8.1rem auto;  
+    width: 420px;
+    left: 240px;
+    position: relative;
+    position: absolute;
+    top: 100px;
+  }
+  .carddua{
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 490px;
+    margin: 12rem auto 8.1rem auto;  
+    width: 420px;
+    left: 700px;
+    position: relative;
+    position: absolute;
+    top: 100px;
+  }
+  .cardtiga{
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 490px;
+    margin: 12rem auto 8.1rem auto;  
+    width: 420px;
+    left: 240px;
+    position: relative;
+    position: absolute;
+    top: 609px;
+  }
+  .cardempat{
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 490px;
+    margin: 12rem auto 8.1rem auto;  
+    width: 420px;
+    left: 700px;
+    position: relative;
+    position: absolute;
+    top: 609px;
+  }
+  .cardlima{
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 490px;
+    margin: 12rem auto 8.1rem auto;  
+    width: 420px;
+    left: 240px;
+    position: relative;
+    position: absolute;
+    top: 1115px;
+  }
+  .cardenam{
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 490px;
+    margin: 12rem auto 8.1rem auto;  
+    width: 420px;
+    left: 700px;
+    position: relative;
+    position: absolute;
+    top: 1115px;
+  }
+  .gmbr1{
+    position: relative;
+    border-radius:  8px;
+    z-index: 1;
+    width: 420px;
+    height: 190px;
+  }
+  .gmbr2{
+    position: relative;
+    border-radius:  8px;
+    z-index: 1;
+    width: 420px;
+    height: 190px;
+  }
+  .gmbr3{
+    position: relative;
+    border-radius:  8px;
+    z-index: 1;
+    width: 420px;
+    height: 190px;
+  }
+  .kata1{
+    position: relative;
+font-size: 13px;
+font-style:bold;
+top: -40px;
+left: 50px;
+  }
+  .kata2{
+    position: relative;
+    font-size: 9px;
+    font-style:bold;
+    top: -60px;
+    left: 9px;
+  }
+  
+  .tombol{
+    position: relative;
+    position: absolute;
+    background-color:  #744FC6;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+    text-align: center;
+    box-shadow: black;
+    top: 280px;
+    left: 90px;
+  }
+  
+ 
+.bawah{
+  color:darkgrey ;
+  position: relative;
+  font-size: 10px ;
+  font-family:Nunito Sans ;
+  text-align: center;
+  top: -60px;
+}
+.stack1{
+  position: relative;
+  bottom: 255px;
+  left: 200px;
+}
+.bg{
+  position: relative;
+  right: 170px;
+  top: 100px;
+}
+.stack2{
+  position: relative;
+  top: 1345px;
+  left: 130px;
+}
+.stack3{
+  position: relative;
+  top: 1335px;
+  left: 130px;
+}
+.karyaku2{
+  position: absolute;
+  top: 2390px;
+  left: 130px;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+.icona{
+  position: absolute;
+  top: 2490px;
+  left: 130px;
+}
+.iconb{
+  position: absolute;
+  top: 2490px;
+  left: 170px;
+}
+
+ .iconc{
+  position: absolute;
+  top: 2490px;
+  left: 210px;
+}
+.icond{
+  position: absolute;
+  top: 2490px;
+  left: 250px;
+}
+.textku{
+  position: absolute;
+  top: 2320px;
+  left: 500px;
+  font-weight: bold;
+  font-family: nonito sans;
+  font-size: 16px;
+}
+.baris1
+{
+  line-height: 0.2cm;
+  font-size: 13px;
+  font-family: nonito sans;
+  position: absolute;
+  top: 2350px;
+  left: 500px;
+}
+.textku1{
+  position: absolute;
+  top: 2320px;
+  left: 690px;
+  font-weight: bold;
+  font-family: nonito sans;
+  font-size: 16px;
+}
+.baris2
+{
+  line-height: 0.2cm;
+  font-size: 13px;
+  font-family: nonito sans;
+  position: absolute;
+  top: 2350px;
+  left: 690px;
+}
+.textku3{
+  position: absolute;
+  top: 2320px;
+  left: 990px;
+  font-weight: bold;
+  font-family: nonito sans;
+  font-size: 16px;
+}
+.baris3
+{
+  line-height: 0.2cm;
+  font-size: 13px;
+  font-family: nonito sans;
+  position: absolute;
+  top: 2350px;
+  left: 990px;
+}
+.boxdown{
+  position: absolute;
+  top: 270px;
+  right:-200px;
+  background: #838383;
+  margin-top: 5px;
+}
+.tulisanD{
+  position: absolute;
+  left:100px;
+  top: 117px;
+  font-size: x-small;
+}
+
+.tombol2{
+  position: relative;
+  position: absolute;
+  background-color:  #744FC6;
+  border-radius: 5px;
+  height: 40px;
+  width: 120px;
+  color: white;
+  font-size: 12px;
+  font-family: sans-serif;
+  text-align: center;
+  box-shadow: black;
+  top: 260px;
+  left: 598px;
+  line-height: 40px;
+}
+.box{
+  position: relative;
+  background-color:#C4C4C4;
+  width: 1350px;
+  height: 190px;
+  top: -500px;
+}
+.kataatas{
+  position: absolute;
+  font-size: 40px;
+  left: 610px;
+  bottom: 500px;
+
+}
+.filters2 a {
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+  padding-left: 10px;
+  right: 10px;
+  left: 300px;
+  padding-right: 10px;
+  position: relative;
+  font-family: nunito sans;
+  font-size: 10px;
+  left: 540px;
+  top: -475px;
+  z-index: 1;
+  cursor: pointer;
+}
+.button3{
+  color:white;
+    background:#3B3B3B;
+    border-radius: 3px;
+    font-size: 10px;
+    position: absolute;
+    width: 120px;
+    left: 18px;
+    height: 30px;
+    top: 200px;
+    z-index: 1;
+}
+.D{
+  position: relative;
+  text-align: center;
+  font-size: 13px;
+  top: 7px;
+}
+.button4{
+  color:white;
+    background:#3B3B3B;
+    border-radius: 3px;
+    font-size: 12px;
+    position: absolute;
+    width: 50px;
+    text-align: center;
+    left: 156px;
+    height: 30px;
+    top: 200px;
+    z-index: 1;
+}
+.E{
+  position: relative;
+  text-align: center;
+  font-size: 13px;
+  top: 7px;
+}
+.kt1{
+  position: absolute;
+  font-size: 17px;
+z-index: 1;
+color: #3B3B3B;
+bottom: 223px;
+left: 30px;
+}
+.kt2{
+  position: absolute;
+  font-size: 25px;
+  color: #744FC6;
+  top: 270px;
+  left: 40px;
+}
+.kt3{
+  position: absolute;
+  font-size: 25px;
+  color: #744FC6;
+  top: 270px;
+  left: 260px;
+}
+.kt4{
+  position: absolute;
+  font-size: 10px;
+  color: #3B3B3B;
+  top: 300px;
+  left: 40px;
+}
+.kt5{
+  position: absolute;
+  font-size: 10px;
+  color: #3B3B3B;
+  top: 300px;
+  left: 260px;
+}
+.kt6{
+  position: absolute;
+  font-size: 11px;
+  color: #3B3B3B;
+  top: 340px;
+  left: 30px;
+}
+.button5{
+  color: #744FC6;
+  background: #fff;
+  height: 30px;
+  font-size: 11px;
+  text-align: center;
+  z-index: 1;
+border-radius: 7px;
+  width: 100px;
+  top: 429px;
+  left: 290px;
+  position:absolute;
+  border: 1px solid #744FC6;
+}
+.A{
+  font-size: 11px;
+  position: relative;
+  top: 7px;
+  text-align: center;
+}
+.box2{
+    position: relative;
+    background-color: #F3F3F3;
+    width: 1350px;
+    height: 290px;
+    top: 1250px;
+   z-index: 1;
+}
+.ftlogo{
+  position: absolute;
+  position: relative;
+ width: 1350px;
+ height: 170px;
+ 
+}
+.meet{
+  position: relative;
+  font-size: 25px;
+  font-family: Nunito Sans;
+  top: -150px;
+  text-align: center;
+}
+.and{
+  position: relative;
+  font-family: sans-serif;
+  top: -170px;
+  text-align: center;
+}
+.box3{
+  position: absolute;
+  background-color:white;
+  border-radius: 9px;
+  top: 100px;
+  width: 894px;
+  height: 130px;
+  left: 200px;
+}
+#fname{
+  position: relative;
+  border-radius: 8px;
+  width: 340px;
+  height: 40px;
+  border: 1px solid #E0E0E0;
+  top: 48px;
+  left: 19px;
+}
+#fname2{
+  position: relative;
+  border-radius: 8px;
+  width: 340px;
+  height: 40px;
+  border: 1px solid #E0E0E0;
+ top: 48px;
+ left: 30px;
+}
+.tombol2{
+  position: absolute;
+ 
+  background-color:  #744FC6;
+  border-radius: 5px;
+  height: 40px;
+  width: 120px;
+  color: white;
+  font-size: 12px;
+  font-family: sans-serif;
+  text-align: center;
+ top: 50px;
+ left: 740px;
+}

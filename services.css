@@ -1,0 +1,759 @@
+
+body {
+  font-family: "Inconsolata", monospace;
+  color: #0d1e2d;
+  overflow-x: hidden;
+}
+
+a {
+  color: #777;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+}
+
+.section {
+  padding: 7rem 0;
+}
+
+.filters a {
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+  padding-left: 30px;
+  right: 10px;
+  left: 300px;
+  padding-right: 30px;
+  position: relative;
+  font-family: nunito sans;
+  font-size: 16px;
+  left: -3;
+  top: -327px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.filters a:hover, .filters a:focus, .filters a:active {
+  text-decoration: none;
+}
+
+.filters a:hover:before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 0;
+  height: 1px;
+  background-color: #000;
+}
+
+.filters a.active {
+  color: #000;
+}
+
+.filters a.active:before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 0;
+  height: 1px;
+  background-color: #000;
+}
+
+.item {
+  border: none;
+  margin-bottom: 30px;
+}
+
+.item .item-wrap {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+.item .item-wrap img {
+  transition: .3s transform ease;
+  transform: scale(1);
+}
+.testimonial-carousel .owl-dots .owl-dot.active {
+  outline: none;
+}
+
+.testimonial-carousel .owl-dots .owl-dot.active > span {
+  background: #0d1e2d;
+}
+
+.sticky-content {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  /* required */
+}
+.list-line li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: .7rem;
+  width: 10px;
+  height: 2px;
+  background: #000;
+}
+
+.form-control {
+  border-radius: 0;
+  background: #f8f9fa;
+  border: 1px solid transparent;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+.form-control:active, .form-control:focus {
+  background: #eff1f4;
+  outline: none;
+  box-shadow: none;
+  border: 1px solid transparent;
+}
+
+.custom-progress {
+  height: 7px;
+  border-radius: 0;
+}
+
+.custom-progress .progress-bar {
+  background: #000;
+}
+
+
+.custom-navmenu {
+  background: #0d1e2d;
+}
+
+.custom-navmenu .custom-menu, .custom-navmenu .custom-menu li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.custom-navmenu .custom-menu li {
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+.custom-navmenu .custom-menu li a {
+  color: #fff;
+  padding: 10px 0 !important;
+}
+
+.custom-navmenu .custom-menu li a:hover {
+  text-decoration: none;
+}
+
+.custom-navmenu .custom-menu li.active a {
+  text-decoration: underline;
+}
+
+.custom-navmenu h3 {
+  font-size: 20px;
+  color: #fff;
+}
+
+.custom-navmenu p {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.custom-navmenu a {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.custom-navmenu a:hover {
+  color: #fff;
+}
+
+/* Custom Navbar */
+.custom-navbar {
+  padding-top:10px;
+  width: 100%;
+}
+
+@media (max-width: 780px) {
+  .custom-navbar > .container {
+      position: relative;
+    padding-right: 0;
+    padding-left: 0;
+    top:30px;
+    left: 50px;
+  }
+}
+
+.custom-navbar .navbar-brand {
+  position: relative;
+  font-size: 1.7rem;
+  font-family: Montserrat;
+  padding-top: -20px; 
+  left: 50px; 
+  top: -250px;
+}
+.button{
+color:black;
+    background:white;
+    padding: 7px 22px;
+    margin: 0 0 0 15px;
+    border-radius: 8px;
+    border: 2px white;
+    transition: all ease-in-out 0.3s;
+    font-size: 13px;
+    white-space: nowrap;
+    position: absolute;
+    right: 9px;
+    top: 200px;
+    z-index: 1;
+}
+.wee{
+  position: absolute;
+  top: 10px;
+}
+.border{
+  position: relative;
+  padding-top: 50px;
+  right: -15px;
+  z-index: 1;
+}
+.box{
+  background-color:#F3F3F3;
+  width: 1600;
+  height: 600;
+  margin-top: 320px;
+  padding-top: 400px;
+}
+
+
+.card{
+  background: #fbfbfb;
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+  height: 350px;
+  margin: 12rem auto 8.1rem auto;  
+  width: 280px;
+  left: 150px;
+  position: relative;
+  position: absolute;
+  top: 350px;
+}
+.card1{
+  background: #fbfbfb;
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+  height: 350px;
+  margin: 12rem auto 8.1rem auto;
+  width: 280px;
+  left: 500px;
+  position: relative;
+  position: absolute;
+  top: 350px;
+}
+.card2{
+  background: #fbfbfb;
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+  height: 350px;
+  margin: 12rem auto 8.1rem auto;
+  width: 280px;
+  left: 850px;
+  position: relative;
+  top: 350px;}
+  .cardsatu{
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 490px;
+    margin: 12rem auto 8.1rem auto;  
+    width: 420px;
+    left: 240px;
+    position: relative;
+    position: absolute;
+    top: 100px;
+  }
+  .carddua{
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 490px;
+    margin: 12rem auto 8.1rem auto;  
+    width: 420px;
+    left: 700px;
+    position: relative;
+    position: absolute;
+    top: 100px;
+  }
+  .cardtiga{
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 490px;
+    margin: 12rem auto 8.1rem auto;  
+    width: 420px;
+    left: 240px;
+    position: relative;
+    position: absolute;
+    top: 609px;
+  }
+  .cardempat{
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 490px;
+    margin: 12rem auto 8.1rem auto;  
+    width: 420px;
+    left: 700px;
+    position: relative;
+    position: absolute;
+    top: 609px;
+  }
+  .cardlima{
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 490px;
+    margin: 12rem auto 8.1rem auto;  
+    width: 420px;
+    left: 240px;
+    position: relative;
+    position: absolute;
+    top: 1115px;
+  }
+  .cardenam{
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 490px;
+    margin: 12rem auto 8.1rem auto;  
+    width: 420px;
+    left: 700px;
+    position: relative;
+    position: absolute;
+    top: 1115px;
+  }
+  .gmbr1{
+    position: relative;
+    border-radius:  8px;
+    z-index: 1;
+    left: 1px;
+    top: 3px;
+    width: 420px;
+    height: 190px;
+  }
+  .gmbr2{
+    position: relative;
+    border-radius:  8px;
+    z-index: 1;
+    left: 1px;
+    top: 3px;
+    width: 420px;
+    height: 190px;
+  }
+  .gmbr3{
+    position: relative;
+    border-radius:  8px;
+    z-index: 1;
+    left: 1px;
+    top: 3px;
+    width: 420px;
+    height: 190px;
+  }
+  .kata1{
+    position: relative;
+font-size: 13px;
+font-style:bold;
+top: -40px;
+left: 50px;
+  }
+  .kata2{
+    position: relative;
+    font-size: 9px;
+    font-style:bold;
+    top: -60px;
+    left: 9px;
+  }
+  
+  .tombol{
+    position: relative;
+    position: absolute;
+    background-color:  #744FC6;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+    text-align: center;
+    box-shadow: black;
+    top: 280px;
+    left: 90px;
+  }
+  
+ 
+.bawah{
+  color:darkgrey ;
+  position: relative;
+  font-size: 10px ;
+  font-family:Nunito Sans ;
+  text-align: center;
+  top: -60px;
+}
+
+
+.box5{
+  position: relative;
+  background-color:white;
+  width: 1350px;
+  height: 340px;
+  top: 1000px;
+  z-index: 1;
+}
+.katabo5{
+  font-size: 50px;
+  position: relative;
+  font-family:Montserrat ;
+  left: 50px;
+}
+.katabo6{
+  position: relative;
+  color:grey;
+  left: 50px;
+}
+.fb{
+  position: relative;
+  top: 50px;
+  left: 50px;
+  width: 30px;
+  height: 30px ;
+}
+.ig{
+  position: relative;
+  top: 50px;
+  left: 55px;
+  width: 30px;
+  height: 30px ;
+}
+.twiter{
+  position: relative;
+  top: 50px;
+  left: 60px;
+  width: 30px;
+  height: 30px ;
+}
+.in{
+  position: relative;
+  top: 50px;
+  left: 65px;
+  width: 30px;
+  height: 30px ;
+}
+.teks{
+  position: relative;
+  font-size: 16px;
+  top: -240px;
+  left: 500px;
+}
+.teks2{
+  position: relative;
+  font-size: 16px;
+  top: -260px;
+  left: 500px;
+}
+.teks3{
+  position: relative;
+  font-size: 16px;
+  top: -280px;
+  left: 500px;
+}
+.teks4{
+  position: relative;
+  font-size: 16px;
+  top: -300px;
+  left: 500px;
+}
+.teks5{
+  position: relative;
+  font-size: 16px;
+  top: -320px;
+  left: 500px;
+}
+.teks6{
+  position: relative;
+  font-size: 16px;
+  top: -340px;
+  left: 500px;
+}
+.teks7{
+  position: relative;
+  font-size: 16px;
+  top: -580px;
+  left: 700px;
+}
+.teks8{
+  position: relative;
+  font-size: 16px;
+  top: -600px;
+  left: 700px;
+}
+.teks9{
+  position: relative;
+  font-size: 16px;
+  top: -620px;
+  left: 700px;
+}
+.teks10{
+  position: relative;
+  font-size: 16px;
+  top: -640px;
+  left: 700px;
+}
+.teks11{
+  position: relative;
+  font-size: 16px;
+  top: -808px;
+  left: 1050px;
+}
+.teks12{
+  position: relative;
+  font-size: 16px;
+  top: -830px;
+  left: 1050px;
+}
+.teks13{
+  position: relative;
+  font-size: 16px;
+  top: -852px;
+  left: 1050px;
+}
+.teks14{
+  position: relative;
+  font-size: 16px;
+  top: -872px;
+  left: 1050px;
+}
+.box6{
+  position: relative;
+  background-color:grey;
+  width: 1400px;
+  height: 20px;
+  top: 1000px;
+ 
+}
+.akhir{
+  color: #fff;
+}
+.tombol2{
+  position: relative;
+  position: absolute;
+  background-color:  #744FC6;
+  border-radius: 5px;
+  height: 40px;
+  width: 120px;
+  color: white;
+  font-size: 12px;
+  font-family: sans-serif;
+  text-align: center;
+  box-shadow: black;
+  top: 260px;
+  left: 598px;
+}
+.box{
+  position: relative;
+  background-color:#C4C4C4;
+  width: 1350px;
+  height: 190px;
+  top: -500px;
+}
+.kataatas{
+  position: relative;
+  font-size: 40px;
+  top: -250px;
+
+}
+.filters2 a {
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+  padding-left: 10px;
+  right: 10px;
+  left: 300px;
+  padding-right: 10px;
+  position: relative;
+  font-family: nunito sans;
+  font-size: 10px;
+  left: 480px;
+  top: -290px;
+  z-index: 1;
+  cursor: pointer;
+}
+.button3{
+  color:white;
+    background:#3B3B3B;
+    border-radius: 3px;
+    font-size: 10px;
+    position: absolute;
+    width: 120px;
+    left: 28px;
+    height: 30px;
+    top: 200px;
+    z-index: 1;
+}
+.D{
+  position: relative;
+  text-align: center;
+  top: -3px;
+}
+.button4{
+  color:white;
+    background:#3B3B3B;
+    border-radius: 3px;
+    font-size: 12px;
+    position: absolute;
+    width: 50px;
+    text-align: center;
+    left: 156px;
+    height: 30px;
+    top: 200px;
+    z-index: 1;
+}
+.E{
+  position: relative;
+  text-align: center;
+  top: -9px;
+}
+.kt1{
+  position: absolute;
+  font-size: 15px;
+z-index: 1;
+color: #3B3B3B;
+bottom: 223px;
+left: 30px;
+}
+.kt2{
+  position: absolute;
+  font-size: 40px;
+  color: #744FC6;
+  top: 220px;
+  left: 40px;
+}
+.kt3{
+  position: absolute;
+  font-size: 40px;
+  color: #744FC6;
+  top: 220px;
+  left: 260px;
+}
+.kt4{
+  position: absolute;
+  font-size: 10px;
+  color: #3B3B3B;
+  top: 292px;
+  left: 40px;
+}
+.kt5{
+  position: absolute;
+  font-size: 10px;
+  color: #3B3B3B;
+  top: 292px;
+  left: 260px;
+}
+.kt6{
+  position: absolute;
+  font-size: 11px;
+  color: #3B3B3B;
+  top: 320px;
+  left: 30px;
+}
+.button5{
+  color: #744FC6;
+  background: #fff;
+  height: 30px;
+  font-size: 11px;
+  text-align: center;
+  z-index: 1;
+border-radius: 7px;
+  width: 100px;
+  top: 429px;
+  left: 290px;
+  position:absolute;
+  border: 1px solid #744FC6;
+}
+.A{
+  font-size: 11px;
+  position: relative;
+ bottom: 9px;
+  text-align: center;
+}
+.box2{
+    position: relative;
+    background-color: #F3F3F3;
+    width: 1350px;
+    height: 290px;
+    top: 990px;
+   z-index: 1;
+}
+.ftlogo{
+  position: absolute;
+  position: relative;
+ width: 1350px;
+ height: 170px;
+ 
+}
+.meet{
+  position: relative;
+  font-size: 25px;
+  font-family: Nunito Sans;
+  top: -198px;
+  text-align: center;
+}
+.and{
+  position: relative;
+  font-family: sans-serif;
+  top: -220px;
+  text-align: center;
+}
+.box3{
+  position: absolute;
+  background-color:white;
+  border-radius: 9px;
+  top: 100px;
+  width: 894px;
+  height: 130px;
+  left: 200px;
+}
+#fname{
+  position: relative;
+  border-radius: 8px;
+  width: 340px;
+  height: 40px;
+  border: 1px solid #E0E0E0;
+  top: 48px;
+  left: 19px;
+}
+#fname2{
+  position: relative;
+  border-radius: 8px;
+  width: 340px;
+  height: 40px;
+  border: 1px solid #E0E0E0;
+ top: 48px;
+ left: 30px;
+}
+.tombol2{
+  position: absolute;
+ 
+  background-color:  #744FC6;
+  border-radius: 5px;
+  height: 40px;
+  width: 120px;
+  color: white;
+  font-size: 12px;
+  font-family: sans-serif;
+  text-align: center;
+ top: 50px;
+ left: 740px;
+}

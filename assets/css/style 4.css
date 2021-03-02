@@ -1,0 +1,335 @@
+
+body {
+  font-family: "Inconsolata", monospace;
+  color: #0d1e2d;
+  overflow-x: hidden;
+}
+
+a {
+  color: #777;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+}
+
+h1, h2, h3, h4, h5, h6, .font-heading {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+.section {
+  padding: 7rem 0;
+}
+
+.filters a {
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  font-family: nunito sans;
+  font-size: 16px;
+  left: 420px;
+  font-weight: bold;
+  bottom: 385px;
+}
+
+.filters a:hover, .filters a:focus, .filters a:active {
+  text-decoration: none;
+}
+
+.filters a:hover:before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 0;
+  height: 1px;
+  background-color: #000;
+}
+
+.filters a.active {
+  color: #000;
+}
+
+.filters a.active:before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 0;
+  height: 1px;
+  font-weight: bold;
+  background-color: #000;
+}
+
+.stack1
+{
+  position: absolute;
+  top: 200px;
+  left: 220px;
+}
+
+.stack
+{
+  position: relative;
+  bottom: 350px;
+  left: 220px;
+
+}
+.button{
+
+color:black;
+    background:white;
+    padding: 7px 22px;
+    margin: 0 0 0 15px;
+    border-radius: 8px;
+    border: 2px white;
+    transition: all ease-in-out 0.3s;
+    font-size: 13px;
+    white-space: nowrap;
+    position: absolute;
+    padding-right: -15px;
+    top: 190px;
+    left: 1100px;
+}
+.bg
+{
+position: absolute;
+left: -10px;
+right: 100px;
+top: -130px;
+bottom: none;
+}
+.text1{
+  font-weight: bolder;
+  color: #000;
+  top: 180px;
+  position: absolute;
+  left: 615px;
+}
+.text2{
+position: absolute;
+  top: 230px;
+  left: 400px;
+  text-align: center;
+  font-size: 10px;
+  line-height: 0cm;
+}
+.box1{
+  position: absolute;
+width: 835px;
+height: 290px;
+left: 270px;
+top: 270px;
+background: #FFFFFF;
+box-shadow: 0px 9px 20px rgba(187, 187, 187, 0.25);
+border-radius: 16px;
+}
+.box2{
+  position: absolute;
+  left: 290px;
+  top: 300px;
+  background: #FFFFFF;
+  box-shadow: 0px 9px 20px rgba(187, 187, 187, 0.25);
+  border-radius: 16px;
+}
+.box3{
+  position: absolute;
+  left: 695px;
+  top: 300px;
+  background: #FFFFFF;
+  box-shadow: 0px 9px 20px rgba(187, 187, 187, 0.25);
+  border-radius: 16px;
+}
+.box4{
+  position: absolute;
+  left: 290px;
+  top: 355px;
+  background: #FFFFFF;
+  box-shadow: 0px 9px 20px rgba(187, 187, 187, 0.25);
+  border-radius: 16px;
+}
+.button2{
+  background:#744FC6;
+  padding: 7px 22px;
+  margin: 0 0 0 15px;
+  border-radius: 8px;
+  border:pink;
+  font-family: sans-serif;
+  border: 1px solid #744FC6;
+  box-sizing: border-box;
+  color: white;
+  position: absolute;
+  top:485px;
+  left: 600px;
+}
+.box{
+  position: absolute;
+  top: 620px;
+  left: 0;
+  width: 1900px;
+  height: 250px;
+  background-color: #F3F3F3;
+}
+.name{
+  position: absolute;
+  top: 310px;
+  left: 300px;font-size: small;
+  color: #BDBDBD
+}
+.name2{
+  position: absolute;
+  top: 310px;
+  left: 710px;font-size: small;
+  color: #BDBDBD
+}
+.name3{
+  position: absolute;
+  top: 370px;
+  left: 300px;font-size: small;
+  color: #BDBDBD
+}
+.phone{
+  position: absolute;
+  top: 710px;
+  left: 250px;
+}
+.text3{
+  position: absolute;
+  top: 770px;
+  left: 210px;
+  font-size: smaller;
+}
+.letter{
+  position: absolute;
+  top: 710px;
+  left: 600px;
+}
+.text4{
+  position: absolute;
+  top: 770px;
+  left: 530px;
+  font-size: smaller;
+}
+.pin{
+    position: absolute;
+    top: 710px;
+    left: 1000px;
+  }
+.text5{
+    position: absolute;
+    top: 770px;
+    left: 890px;
+    font-size: smaller;
+}
+.maps{
+    position: absolute;
+    right: -1px;
+    top: 870px;
+}
+.stack2{
+  position: absolute;
+  top: 1400px;
+  left: 130px;
+}
+.stack3{
+  position: absolute;
+  top: 1435px;
+  left: 130px;
+}
+.karyaku2{
+  position: absolute;
+  top: 1490px;
+  left: 130px;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+.icona{
+  position: absolute;
+  top: 1560px;
+  left: 130px;
+}
+.iconb{
+  position: absolute;
+  top: 1560px;
+  left: 170px;
+}
+
+ .iconc{
+  position: absolute;
+  top: 1560px;
+  left: 210px;
+}
+.icond{
+  position: absolute;
+  top: 1560px;
+  left: 250px;
+}
+.textku{
+  position: absolute;
+  top: 1420px;
+  left: 500px;
+  font-weight: bold;
+  font-family: nonito sans;
+  font-size: 16px;
+}
+.baris1
+{
+  line-height: 0.2cm;
+  font-size: 13px;
+  font-family: nonito sans;
+  position: absolute;
+  top: 1450px;
+  left: 500px;
+}
+.textku1{
+  position: absolute;
+  top: 1420px;
+  left: 690px;
+  font-weight: bold;
+  font-family: nonito sans;
+  font-size: 16px;
+}
+.baris2
+{
+  line-height: 0.2cm;
+  font-size: 13px;
+  font-family: nonito sans;
+  position: absolute;
+  top: 1450px;
+  left: 690px;
+}
+.textku3{
+  position: absolute;
+  top: 1420px;
+  left: 990px;
+  font-weight: bold;
+  font-family: nonito sans;
+  font-size: 16px;
+}
+.baris3
+{
+  line-height: 0.2cm;
+  font-size: 13px;
+  font-family: nonito sans;
+  position: absolute;
+  top: 1450px;
+  left: 990px;
+}
+.boxdown{
+  position: absolute;
+  top: 240px;
+  right: -180px;
+  background: #838383;
+  margin-top: 5px;
+}
+.tulisanD{
+  position: absolute;
+  right:350px;
+  top: 90px;
+  font-size: smaller;
+}
